@@ -48,7 +48,9 @@
 
   --text-color-base: #283136;
   --text-bgcolor-base: var(--basic-white);
-  --text-color-contact: #666666;
+  --text-color-grey: #666666;
+
+  --pagination-hover-grey: #DFDFDF;
 }
 
 /* Global */
@@ -244,7 +246,7 @@ img {
 /* Map */
 
 .contact {
-  color: var(--text-color-contact);
+  color: var(--text-color-grey);
 }
 
 .contact-title {
@@ -276,4 +278,71 @@ img {
 
 .social-text {
   line-height: 22px;
+}
+
+/* Filter */
+
+.filter {
+  background-color: var(--basic-white);
+}
+
+/* Catalog */
+
+.catalog {
+  background-color: var(--basic-white);
+}
+
+.catalog-page-title {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+}
+
+.sort-title {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.sort-type-list {
+  list-style: none;
+}
+
+.sort-direction-list {
+  list-style: none;
+}
+
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-list h3 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.catalog-list p {
+  line-height: 18px;
+  color: var(--text-color-grey);
+  text-align: center;
+}
+
+/* Pagination */
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item a {
+  color: var(--basic-black);
+  background-color: var(--basic-grey);
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus,
+.pagination-item a:active {
+  background-color: var(--pagination-hover-grey);
 }
